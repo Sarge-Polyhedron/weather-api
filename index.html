@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather API</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="location">
+    <h2 class="location_timezone"></h2>
+    <canvas class="location_icon" width="128" height="128"></canvas>
+  </div>
+  <div class="lds-ripple"><div></div><div></div></div>
+
+  <div class="temp">
+      <div class="temp_degree">
+        <h2></h2>
+        <span title="Celsius"></span>
+      </div>
+      <span class="temp_desc"></span>
+  </div>
+
+  <script src="skycons.js"></script>
+  <script src="api.js"></script>
+</body>
+</html>
